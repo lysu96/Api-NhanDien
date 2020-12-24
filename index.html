@@ -4,13 +4,14 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Api Nhận Diện</title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="Public/css.css">
+	<link rel="shortcut icon" type="image/x-icon" href="Public/ic14.jpg">
 </head>
 <body>
-	<div>Teachable Machine Image Model</div>
-	<button type='button' onclick='init()'>Start</button>
-	<div id='webcam-container'></div>
-	<div id='label-container'></div>
+	<div>Nhận diện khuôn người bằng khuôn mặt</div>
+    <button type="button" onclick="init()">mở camera</button>
+    <div id="webcam-container"></div>
+    <div id="label-container"></div>
 
 	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8.3/dist/teachablemachine-image.min.js"></script>
